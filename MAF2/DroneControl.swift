@@ -10,7 +10,7 @@ class DroneControl : NSObject, DJISDKManagerDelegate {
     public var product:DJIBaseProduct? = nil
     private var completion:(Bool) -> Void
     
-    
+    //
     public static var instance: DroneControl? {
         return DroneControl.droneSetUp
     }
